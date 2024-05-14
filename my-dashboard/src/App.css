@@ -1,0 +1,100 @@
+body{
+  background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148888131.jpg?size=626&ext=jpg&ga=GA1.1.1369675164.1715212800&semt=ais");
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/* temporary drawer styling */
+h1{
+text-align: center;
+color: darkblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+  text-align: center;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Dashboard header style */
+#Head{
+color: cyan;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 250px;
+font-weight: bolder;
+}
+
+#Subhead{
+color: lightcyan;
+margin-left: 250px;
+text-decoration: underline;
+}
+
+/* card css */
+.Number2 {
+  color: rgb(0, 172, 23);
+}
+
+.Category { 
+  color: orange;
+}
+
+.Percent {
+  color: rgb(0, 172, 23);
+}
+
+.Cards {
+  background-color: rgb(235, 229, 229);
+}
+
+.Box {
+box-sizing: border-box;
+margin-left: 75px;
+justify-content: space-between;
+padding-top: 50px;
+display: inline-block;
+width: 25%;
+position: relative;
+}
+
+.Box2 {
+  box-sizing: border-box;
+  margin-left: 75px;
+  justify-content: space-between;
+  padding-top: 50px;
+  display: inline-block;
+  width: 56%;
+  position: relative;
+}
+
+.CardIcons {
+color:orange;
+}
+
+/* Scroll Box styling*/
+#Recent {
+  color: orange;
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Cost {
+  color: rgb(0, 172, 23);
+  width: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#ScrollCard {
+  background-color: rgb(242, 240, 240);
+  height: 250px;
+  margin: auto;
+  width: 32%;
+  position: relative;
+  border-radius: 5px;
+  overflow: scroll;
+  margin-right: 60px;
+  bottom: 120px;
+}
